@@ -20,3 +20,7 @@ Set-Location D:\Project\Webmin-Setup
 ```bash
 git clone https://github.com/zeroboss2006/Webmin-Setup.git
 cd Webmin-Setup
+```
+
+## 聲明
+本專案為 Webmin 與 Virtualmin 的安裝配置工具，與官方倉庫 [Webmin](https://github.com/webmin/webmin) 無直接關聯。
