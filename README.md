@@ -68,7 +68,7 @@ sudo systemctl enable webmin
 https://0.0.0.0:10000 
 ```
 
-# 3. PHP向下兼容 安裝：
+# 3. PHP向下兼容安裝(非必要)：
 ## 添加 PHP PPA
 ```bash
 sudo add-apt-repository ppa:ondrej/php -y
@@ -83,7 +83,7 @@ sudo apt install -y php5.6 php5.6-cli php5.6-fpm php5.6-mysql php5.6-gd php5.6-c
 sudo apt install -y php7.4 php7.4-cli php7.4-fpm php7.4-mysql php7.4-gd php7.4-curl php7.4-mbstring
 ```
 ## PHP 5.6 和 7.4 安裝完成！
-使用以下指令來切換預設 PHP 版本
+使用以下指令來切換預設 PHP 版本(非必要)
 ```bash
 sudo update-alternatives --config php
 ```
