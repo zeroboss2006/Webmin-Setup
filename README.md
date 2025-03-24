@@ -13,13 +13,12 @@
 ## 安裝步驟
 
 1. 克隆此專案：
-```powershell
-git clone https://github.com/zeroboss2006/Webmin-Setup.git
-Set-Location D:\Project\Webmin-Setup
-```
 ```bash
+sudo apt-get update && sudo apt-get upgrade
 git clone https://github.com/zeroboss2006/Webmin-Setup.git
 cd Webmin-Setup
+chmod +x install.sh
+sudo ./install.sh
 ```
 
 ## 聲明
