@@ -42,6 +42,8 @@ sudo bash install.sh
 ```
 ## 配置防火牆
 ```bash
+sudo apt install ufw -y
+sudo ufw allow 22
 sudo ufw allow 10000
 sudo ufw allow 80
 sudo ufw allow 443
@@ -53,6 +55,7 @@ sudo ufw allow 110
 sudo ufw allow 143
 sudo ufw allow 993
 sudo ufw allow 995
+sudo ufw enable
 ```
 ## 啟動服務
 ```bash
