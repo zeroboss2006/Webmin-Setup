@@ -14,7 +14,6 @@
 
 1. 克隆此專案：
 ```bash
-sudo apt-get update && sudo apt-get upgrade
 git clone https://github.com/zeroboss2006/Webmin-Setup.git
 cd Webmin-Setup
 chmod +x install.sh
